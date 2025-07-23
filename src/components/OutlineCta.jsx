@@ -1,7 +1,7 @@
 // import "../assets/style.css";
 // import { useState } from "react";
 
-const OutlineCta = ({ text, isClicked, onClick, ...props }) => {
+const OutlineCta = ({ text, isClicked, onClick,src, ...props }) => {
   return (
     <button
       type="button"
@@ -10,6 +10,7 @@ const OutlineCta = ({ text, isClicked, onClick, ...props }) => {
       {...props}
     >
       {text}
+      <img src={src} alt="" />
     </button>
   );
 };
