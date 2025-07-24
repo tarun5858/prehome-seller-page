@@ -646,7 +646,7 @@ p {
 
   font-family: "Poppins", sans-serif;
   margin: 0px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .fs-lg {
@@ -672,6 +672,12 @@ p {
   /* line-height: 96; */
   font-weight: bold;
   color: #11AD99;
+}
+.real-result-head{
+  font-size: 40px;
+  /* line-height: 96; */
+  /* font-weight: bold; */
+  color: #000;
 }
 .seller-p{
   font-size: 24px;
@@ -11507,6 +11513,12 @@ text-align: left;
 }
 .calculator-p{
   text-align: left;
+  font-size: 20px;
+}
+.calculator-bold-p{
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
 }
 
 .mobile-subhead{
@@ -11547,11 +11559,12 @@ justify-content: space-between;
   /* position: absolute; */
   left: 0%;
   top: 0px;
-  padding: 2%;
+  /* padding: 2%; */
+  padding: 2% 5%;
   border-radius: 7%;
   margin: 10px 10px;
-  /* width: 410px!important; */
-  height: 336px;
+  width: 410px!important;
+  height: 276px;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -12105,7 +12118,20 @@ margin-top: 10%;
   font-weight: bold;
   cursor: pointer;
 }
-
+.real-result-cta{
+  background-color: #DBF3F0;
+  color: #000;
+  padding: 5px 5px;
+  /* border: 1px solid #11AD99; */
+  border-radius: 12px;
+      margin: 0px 10px 0px 0px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.real-result-p{
+  margin-top: 10%;
+}
 .blog-link {
   color: black;
   text-decoration: none;

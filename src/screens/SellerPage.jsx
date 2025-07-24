@@ -5,7 +5,9 @@ import TextCards from "../components/TextCards";
 import SliderSection from "../components/SliderSection";
 import CreativeOutcomes from "../components/CreativeOutcome";
 import PropertyOwners from "../components/PropertyOwners";
-
+import EligiblityCardsParent from "../components/EligiblityCardsParent";
+import RealResults from "../components/RealResults";
+import CalculationDisplayCard from "../components/CalculationDisplayCard";
 const SellerPage = () => {
   return (
     <>
@@ -19,9 +21,15 @@ const SellerPage = () => {
 
       <SliderSection></SliderSection>
 
+      <CalculationDisplayCard></CalculationDisplayCard>
+
       <CreativeOutcomes></CreativeOutcomes>
 
       <PropertyOwners></PropertyOwners>
+
+      <EligiblityCardsParent></EligiblityCardsParent>
+      
+      <RealResults></RealResults>
     </>
   );
 };

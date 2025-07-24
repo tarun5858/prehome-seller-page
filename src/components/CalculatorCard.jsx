@@ -1,19 +1,18 @@
 import React from "react";
-import icon from "../assets/img/account_balance_wallet.png";
 
 const sellerpageCards = () => {
   return (
       <div
-      // calculator-card
-        className="col-xl-3 col-lg-3 col-md-3 col-12 grid-item calculator-card"
-        style={{ backgroundColor: "#E3F7F4" }}
+        className="col-xl-4 col-lg-4 col-md-4 col-12 grid-item calculator-card text-center"
+        style={{ backgroundColor: "#E3F7F4",padding:"2% 5%" }}
       >
-        <div className="icon ">
-          <img src={icon} alt="" width="52px" />
+        <div className="icon  text-center">
+          <p className=" calculator-bold-p"><b>Rent’s Always <br />
+Running Late</b></p>
         </div>
 
-        <div className=" calculator-p">
-          <p>Worth Properties Under Management</p>
+        <div className=" calculator-p text-center mt-4">
+          <p>Skipped payments, empty months — it’s more stress than income sometimes. You deserve better.</p>
         </div>
       </div>
   );
