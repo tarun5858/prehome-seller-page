@@ -1,5 +1,6 @@
 import SellerpageCards from "../components/CalculatorCard";
-
+import CustomOutlineCta from "./OutlineCta";
+import aerocirlce from "../assets/img/arrow_circle_down.png"
 
 const CardSection = () =>{
     return(
@@ -16,6 +17,8 @@ const CardSection = () =>{
                     <SellerpageCards></SellerpageCards>
                     <SellerpageCards></SellerpageCards>
                   </div>
+
+                  <CustomOutlineCta src={aerocirlce} text="See How It Works" className="landingpage-cta mt-5" />
                 </div>
               </div>
             </div>

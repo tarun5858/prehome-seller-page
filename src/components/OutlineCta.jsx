@@ -1,13 +1,13 @@
 // import "../assets/style.css";
 // import { useState } from "react";
 
-const OutlineCta = ({ text, isClicked, onClick,src, ...props }) => {
+const CustomOutlineCta = ({ text, isClicked, onClick,src,className}) => {
   return (
     <button
       type="button"
-      className={`outline-cta ${isClicked ? 'clicked' : ''}`}
+      className={`${className} ${isClicked ? 'clicked' : ''}`}
       onClick={onClick}
-      {...props}
+      // {...props}
     >
       {text}
       <img src={src} alt="" />
@@ -15,4 +15,4 @@ const OutlineCta = ({ text, isClicked, onClick,src, ...props }) => {
   );
 };
 
-export default OutlineCta;
+export default CustomOutlineCta;

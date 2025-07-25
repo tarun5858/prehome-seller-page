@@ -1,6 +1,8 @@
 import bannerImg from "../assets/img/image 1.png";
-import OutlineCta from "../components/OutlineCta";
-import GreenFilledCta from "../components/GreenFilledCta";
+import CustomOutlineCta from "./OutlineCta";
+// import GreenFilledCta from "../components/GreenFilledCta";
+
+import LargeCustomCta from "./LargeCustomCta";
 
 const LandingPage = () =>{
     return(
@@ -22,17 +24,16 @@ const LandingPage = () =>{
                   guarantee your monthly rent, and handle everything in between.
                 </p>
                 <div className="  d-flex ">
-                  <GreenFilledCta
-                    style={{ fontSize: "20px", fontWeight: "bold" }}
-                    text="Get My Property Assesed"
-                  />
-                  <OutlineCta text="See How It Works" />
+               
+            <LargeCustomCta text="Get My Property Assesed" className="Landing-page-cta"></LargeCustomCta>
+
+                  <CustomOutlineCta text="See How It Works" className="landingpage-cta" />
                 </div>
 
                 {/* <LargeBlueCta text="Join our waitlist"></LargeBlueCta> */}
               </div>
               <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                <img src={bannerImg} alt="" width="100%" height="100%" />
+                <img src={bannerImg} alt="" width="747px" height="498px"     />
               </div>
             </div>
           </div>

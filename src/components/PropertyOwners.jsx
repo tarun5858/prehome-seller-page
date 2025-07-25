@@ -52,21 +52,21 @@ const PropertyOwners = () => {
   return (
     <section className="prehome-benefit-sec text-center py-5">
       <div className="container">
-        <h2 className="sec-title-h2 mb-5">
+        <h2 className="sec-title-h2 mb-5" style={{position:"relative",bottom:"150px",left:"0%"}}>
           Why Property Owners Choose Prehome
         </h2>
 
-        <div className="d-flex justify-content-center mb-4">
+        <div className="d-flex justify-content-center mb-4" style={{position:"absolute",top:"0px",left:"40%"}}>
           <ImageTextCards {...cards[3]} />
         </div>
 
         <div className="d-flex justify-content-between align-items-center flex-wrap gap-4">
-          <div className="d-flex flex-column gap-4">
+          <div className="d-flex flex-column gap-4 " >
             <ImageTextCards {...cards[0]} />
             <ImageTextCards {...cards[1]} />
           </div>
 
-          <div style={{ width: "160px", height: "160px", margin: "20px" }}>
+          <div style={{ width: "261px", height: "237px", margin: "20px" }}>
             <img
               src={logo}
               alt="Prehome Logo"
@@ -80,7 +80,7 @@ const PropertyOwners = () => {
           </div>
         </div>
 
-        <div className="d-flex justify-content-center mt-4">
+        <div className="d-flex justify-content-center mt-4" style={{position:"absolute",bottom:"-100px",left:"40%"}}>
           <ImageTextCards {...cards[2]} />
         </div>
       </div>

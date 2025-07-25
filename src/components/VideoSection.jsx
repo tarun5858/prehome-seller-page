@@ -1,6 +1,5 @@
-import GreenFilledCta from "../components/GreenFilledCta";
 import VideoPlayer from "../components/VideoPlayer";
-
+import LargeCustomCta from "./LargeCustomCta";
 const VideoSection = () =>{
     return(
          <section className=" section-padding text-md-start">
@@ -18,7 +17,7 @@ const VideoSection = () =>{
           </div>
         </div>
         <div className="cta-parent">
-          <GreenFilledCta text="Get My Property Assessment"></GreenFilledCta>
+            <LargeCustomCta text="Get My Property Assesed" className="Landing-page-cta"></LargeCustomCta>
         </div>
       </section>
     )

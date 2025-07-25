@@ -8,6 +8,9 @@ import PropertyOwners from "../components/PropertyOwners";
 import EligiblityCardsParent from "../components/EligiblityCardsParent";
 import RealResults from "../components/RealResults";
 import CalculationDisplayCard from "../components/CalculationDisplayCard";
+import FaqDropdown from "../components/FaqDropdown";
+import PreFooter from "../components/PreFooter";
+import Footer from "../components/Footer";
 const SellerPage = () => {
   return (
     <>
@@ -30,6 +33,12 @@ const SellerPage = () => {
       <EligiblityCardsParent></EligiblityCardsParent>
       
       <RealResults></RealResults>
+
+      <FaqDropdown></FaqDropdown>
+
+      <PreFooter></PreFooter>
+      
+      <Footer></Footer>
     </>
   );
 };

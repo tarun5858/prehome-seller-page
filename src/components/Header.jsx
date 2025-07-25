@@ -6,7 +6,8 @@ import "../assets/css/bootstrap.min.css";
 import { FaChevronDown } from "react-icons/fa";
 import "./Header.css";
 import { Link } from "react-router-dom";
-import OutlineCta from "./OutlineCta";
+import CustomOutlineCta from "./OutlineCta";
+
 import GreenFilledCta from "./GreenFilledCta";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -98,7 +99,7 @@ const Header = () => {
             </div>
 
             <div className="col-lg-4 col-sm-4 col-md-4 col-6 d-lg-flex justify-content-end align-items-center">
-              <OutlineCta text="Login" />
+              <CustomOutlineCta text="Login" className="header-outline-cta"/>
               <GreenFilledCta text="Signup" />
             </div>
 

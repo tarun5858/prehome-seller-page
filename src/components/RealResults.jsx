@@ -6,7 +6,7 @@ import billgates from "../assets/img/unsplash_6anudmpILw4.png";
 import RealResultCta from "./RealResultCta";
 const RealResults = () => {
   return (
-    <section className=" section-padding-home text-md-start">
+    <section className=" section-padding-home text-md-start mt-5">
       <div className="">
         <div className="container container-lg">
           <div className="row home-text-img-container">

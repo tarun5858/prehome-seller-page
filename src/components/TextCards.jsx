@@ -1,5 +1,6 @@
 import aerocirlce from "../assets/img/arrow_circle_down.png"
-import OutlineCta from "../components/OutlineCta";
+
+import CustomOutlineCta from "./OutlineCta";
 
 
 const TextCards = () =>{
@@ -14,7 +15,9 @@ const TextCards = () =>{
                   of Owners Earning More, Worrying Less
                 </h1>
                 <div className="mt-5">
-                  <OutlineCta src={aerocirlce} text="See How It Works" ></OutlineCta>
+                  {/* <OutlineCta  text="See How It Works" ></OutlineCta> */}
+                  <CustomOutlineCta src={aerocirlce} text="See How It Works" className="landingpage-cta d-flex justify-content-evenly" />
+
                 </div>
               </div>
               <div className="col-12 col-sm-12 col-md-6 col-lg-6 d-flex  flex-column justify-content-between">
