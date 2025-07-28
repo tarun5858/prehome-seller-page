@@ -2,7 +2,7 @@ import {Slider,Grid,Typography, Box} from "@mui/material";
 
 const SellerSlider = ({title}) =>{
     return(
-        <Box sx={{width:"50%"}}>
+        <Box sx={{width:{xs:"100%",lg:"50%"}}}>
                   <Typography sx={{ fontSize:"16px",fontWeight:"bold",textAlign:"left"}}>{title}</Typography>
 
           <Slider

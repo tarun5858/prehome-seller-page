@@ -29,7 +29,7 @@ const Header = () => {
         <div className="container container-lg">
           <div className="row align-items-center ">
             {/* Logo */}
-            <div className="col-lg-1 col-sm-1 col-md-1 col-6 pr-lg-5">
+            <div className="col-lg-1 col-sm-3 col-md-3 col-6 pr-lg-5">
               <div className="logo">
                 <a href="https://www.prehome.in/">
                   <img src={icon} alt="Prehome" />
@@ -38,7 +38,7 @@ const Header = () => {
             </div>
 
             {/* Desktop Menu */}
-            <div className="col-lg-7 col-sm-7 col-md-7 col-0 d-lg-flex justify-content-end align-items-center">
+            <div className="desktop-header col-lg-7 col-sm-0 col-md-7 col-0 d-lg-flex  justify-content-end align-items-center">
               <div className="menu-wrap">
                 <div className="main-menu">
                   <ul>
@@ -97,14 +97,14 @@ const Header = () => {
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-4 col-sm-4 col-md-4 col-6 d-lg-flex justify-content-end align-items-center">
+            <div className="desktop-header col-lg-4 col-sm-0 col-md-4 col-6 d-lg-flex  justify-content-end align-items-center">
               <CustomOutlineCta text="Login" className="header-outline-cta"/>
               <GreenFilledCta text="Signup" />
             </div>
 
+
             {/* Mobile Menu */}
-            <div className="d-block d-lg-none col-sm-1 col-md-8 col-6">
+            <div className="d-block d-lg-none col-sm-3 col-md-8 col-6">
               <div className="mobile-nav-wrap">
                 {/* Hamburger Icon */}
                 <div
@@ -116,9 +116,9 @@ const Header = () => {
                     right: "12px", // Move slightly to the right
                     top: "20px", // Move slightly lower
                     zIndex: 1000,
-                    width: "48px", // Slightly larger circle
-                    height: "48px", // Slightly larger circle
-                    backgroundColor: "#007FAD", // Blue background
+                    width: "44px", // Slightly larger circle
+                    height: "44px", // Slightly larger circle
+                    backgroundColor: "#11AD99", // Blue background
                     borderRadius: "50%", // Make it a circle
                     display: "flex",
                     justifyContent: "center",

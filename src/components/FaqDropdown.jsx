@@ -42,6 +42,13 @@ const FaqDropdown = () => {
 
   return (
     <div className="container mt-5 mb-5">
+      
+      <div className="faq-text">
+
+       <h2 className="faq-h2">
+                 FAQs</h2>
+                 <p className="faq-p" >Have questions about Prehome and its services? Find answers to common queries below.</p>
+      </div>
       {faqs?.map((faq, index) => (
         <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 " key={index}>
           <div className="faq-accordion">

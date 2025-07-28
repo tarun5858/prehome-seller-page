@@ -4,7 +4,7 @@ import LargeCustomCta from "./LargeCustomCta";
 const CalculationDisplayCard = () => {
   return (
     <>
-    <div className="container d-flex justify-content-center align-items-center flex-column">
+    <div className="container d-none d-flex justify-content-center align-items-center flex-column">
     <div className="text-center" style={{ width: "904px",height:"460px", margin: "10px",border:"1px solid #7EB5B0",borderRadius:"12px",display:"flex",flexDirection:"column",justifyContent:'flex-start',alignItems:"center" }}>
 <div className="row">
      <button style={{width:"236px",height:"87px",color:"#000",background:"#fff",margin:"5px"}}></button>
@@ -22,6 +22,52 @@ const CalculationDisplayCard = () => {
 
                 <LargeCustomCta text="Get My Property Assesed" className="Landing-page-cta mt-5"></LargeCustomCta>
     </div>
+
+    <div className="table-container" >
+  {/* <div className="table-header">
+  </div> */}
+
+  <div className="table-row">
+    <div className="label"></div>
+    <div className="values">
+    <h3><b>Traditional Rental</b></h3>
+     <img src={logo} alt=""  style={{width:"105px",height:"90px"}} />
+    </div>
+  </div>
+
+  <div className="table-row">
+    <div className="label">Monthly Rent</div>
+    <div className="values">
+      <div className="value light">₹25,000</div>
+      <div className="value dark">₹60,000 (guaranteed)</div>
+    </div>
+  </div>
+
+  <div className="table-row">
+    <div className="label">Annual Return</div>
+    <div className="values">
+      <div className="value light">2.0%</div>
+      <div className="value dark">6.5%</div>
+    </div>
+  </div>
+
+  <div className="table-row">
+    <div className="label">Vacancy Risk</div>
+    <div className="values">
+      <div className="value light">High</div>
+      <div className="value dark">Zero</div>
+    </div>
+  </div>
+
+  <div className="table-row">
+    <div className="label">Maintenance</div>
+    <div className="values">
+      <div className="value light">Your responsibility</div>
+      <div className="value dark">Managed by us</div>
+    </div>
+  </div>
+</div>
+
                 </>
   );
 };

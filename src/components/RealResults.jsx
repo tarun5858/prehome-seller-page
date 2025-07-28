@@ -21,51 +21,28 @@ const RealResults = () => {
               <img
                 src={homeimage} 
                 alt="Empty Room"
-                style={{
-                  width: "280px",
-                  borderRadius: "20px",
-                  filter: "grayscale(100%)",
-                
-                  zIndex: 2,
-                }}
-              />
+                className="emptyroom-img"
+                />
 
               <img
                 src={downarrow}
                 alt="Arrow"
-                style={{
-                  position: "absolute",
-                  top: "50px",
-                  left: "46%",
-                  width: "100px",
-                  zIndex: 3,
-                }}
-              />
+                className="downarrow-img"
+                
+                />
 
               <img
                 src={homeimage} 
                 alt="Furnished Room"
-                style={{
-                  width: "300px",
-                  borderRadius: "20px",
-                  position: "absolute",
-                  top: "145px",
-                  left: "30%",
-                  zIndex: 3,
-                }}
-              />
+                className="Furnished-room-img"
+                
+                />
 
               <img
                 src={billgates}
                 alt="Owner"
-                style={{
-                  width: "200px",
-                  borderRadius: "20px",
-                  position: "absolute",
-                  top: "50%",
-                  left: "10%",
-                  zIndex: 0,
-                }}
+                className="Owner-img"
+               
               />
             </div>
 

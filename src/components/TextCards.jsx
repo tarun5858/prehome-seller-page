@@ -14,13 +14,12 @@ const TextCards = () =>{
                   Join A Growing Network <br />
                   of Owners Earning More, Worrying Less
                 </h1>
-                <div className="mt-5">
-                  {/* <OutlineCta  text="See How It Works" ></OutlineCta> */}
-                  <CustomOutlineCta src={aerocirlce} text="See How It Works" className="landingpage-cta d-flex justify-content-evenly" />
+                <div className="mt-5 outline-cta-desktop">
+                  <CustomOutlineCta src={aerocirlce} text="See How It Works" className="landingpage-cta " />
 
                 </div>
               </div>
-              <div className="col-12 col-sm-12 col-md-6 col-lg-6 d-flex  flex-column justify-content-between">
+              <div className="col-12 col-sm-12 col-md-6 col-lg-6 design-text-parent ">
                 <div className="row">
                   <div className="col-lg-6">
                     <h1 className="seller-green-head">98%</h1>
@@ -53,6 +52,11 @@ const TextCards = () =>{
                   </div>
                 </div>
               </div>
+
+               <div className="mt-5 outline-cta-mobile">
+                  <CustomOutlineCta src={aerocirlce} text="See How It Works" className="landingpage-cta " />
+
+                </div>
             </div>
           </div>
         </div>

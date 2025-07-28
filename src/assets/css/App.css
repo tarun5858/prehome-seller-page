@@ -109,9 +109,9 @@ Version: 1.2.0
 
 }
 
-.container{
+/* .container{
   padding: 1%;
-}
+} */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
@@ -685,7 +685,7 @@ p {
 }
 .sub-head-home {
     font-size: 20px;
-margin-top: 40%;
+margin-top: 30%;
 }
 @media (min-width: 767px) and (max-width: 991px) {
   .fs-lg {
@@ -696,11 +696,35 @@ margin-top: 40%;
 @media (max-width: 767px) {
   .fs-lg {
             margin-top: 5%;
-        font-size: 32px;
-        text-align: center;
-  }
-      .sub-head-home {
-        font-size: 14px !important;
+            font-size: 32px;
+            text-align: center;
+          }
+          .sub-head-home {
+            font-size: 14px !important;
+            text-align: center;
+            margin-top: 5%;
+            padding: 0 13%;
+      }
+      .LargeCustomCta{
+        width: 259px!important;
+  height: 45px!important;
+  font-size: 14px!important;
+  align-self: center;
+  /* margin-top: 2%; */
+      }
+      .Landing-page-cta{
+        width: 259px!important;
+  height: 45px!important;
+  font-size: 14px!important;
+  align-self: center;
+  /* margin-top: 2%; */
+      }
+      .landingpage-cta{
+        width: 259px!important;
+  height: 45px!important;
+  font-size: 14px!important;
+  align-self: center;
+  margin-top: 4%!important;
       }
 }
 
@@ -2456,7 +2480,86 @@ nav .breadcrumb li {
         }  
         .mobile-img-howitwork{
           display: none;
-        }   
+        }
+        .design-text-parent{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }  
+        .outline-cta-mobile{
+    display: none;
+  } 
+        .outline-cta-desktop{
+    display: block;
+  } 
+  .eligiblity-cards{
+    width: 400px!important;
+    height:302px;
+     margin: 10px;
+    border:1px solid #7EB5B0;
+    border-radius:12px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+  
+  }
+  .eligiblity-cards-img{
+   height: 100px;
+   width:100px;
+    margin-bottom: 7%;
+  
+  }
+  .emptyroom-img{
+    
+                  width: 280px;
+                  border-radius: 20px;
+                  filter: grayscale(100%);
+                
+                  z-index: 2,
+          
+  }
+  .downarrow-img{
+    
+    
+                  position: absolute;
+                  top: 50px;
+                  left: 46%;
+                  width: 100px;
+                  z-index: 3;
+
+          
+  }
+  .Furnished-room-img{
+    
+    
+                  position: absolute;
+                  top: 145px;
+                  left: 30%;
+                  width: 300px;
+                  z-index: 3;
+                  border-radius: 20px; 
+  }
+  .Owner-img{
+    
+    
+                  position: absolute;
+                  top: 50%;
+                  left: 10%;
+                  width: 200px;
+                  z-index: 0;
+                  border-radius: 20px; 
+
+  }
+  .faq-text{
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .faq-h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+  }
 @media (max-width: 991px) {
   .mask-outline h1 {
     font-size: 150px;
@@ -2464,6 +2567,116 @@ nav .breadcrumb li {
 }
 
 @media (max-width: 576px) {
+  .accordion-button{
+
+    font-size: 14px!important;
+  }
+  .faq-p{
+
+    font-size: 12px!important;
+   text-align: left;
+  }
+  .faq-h2{
+    font-size: 24px;
+   text-align: left;
+  }
+  .real-result-head{
+    font-size: 24px;
+  }
+  .real-result-cta{
+    font-size: 14px!important;
+    margin: 2% 0!important;
+    padding: 2% 4%!important;
+  }
+  .Owner-img{
+    
+    
+                  position: absolute;
+                  top: 45%;
+                  left: 3%;
+                  height: 211px;
+                  width: 213px;
+                  z-index: 0;
+                  border-radius: 20px; 
+
+  }
+    .Furnished-room-img{
+                      top: 126px;
+                  left: 25%;
+                  width: 279px;
+                  height: 186px;
+                 
+  }
+    .downarrow-img{
+ width: 65px;
+ left: 56%;
+                  height: 76px;   
+  }
+  .emptyroom-img{
+    
+                  width: 207px;
+                  height: 138px;
+                  
+          
+  }
+   .eligiblity-cards-img{
+   height: 52px;
+   width:52px;
+    margin-bottom: 7%;
+  
+  }
+  .eligiblity-cards{
+    width: 270px!important;
+    height:167px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+  .design-text-parent{
+    margin-top: 8%!important;
+  }
+   .outline-cta-desktop{
+    display: none;
+  } 
+  .outline-cta-mobile{
+    display: block;
+    display: flex;
+    justify-content: center;
+  }
+  .design-text-parent{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }  
+  .seller-green-head{
+
+    font-size: 24px;
+    text-align: center;
+  }
+  .seller-p{
+
+    text-align: center;
+    font-size: 14px;
+  }
+  .seller-head{
+    font-size: 28px;
+    text-align: center;
+  }
+  .calculator-card{
+  width: 350px!important;
+  height: 183px!important;
+}
+  .landing-page-cta-parent{
+display: flex;
+flex-direction: column;
+  }
+  .calculator-card{
+    width: 350px;
+    height: 183px;
+  }
+  .desktop-header{
+  display: none!important;
+}
   .Transformative-section{
   position:relative;
     width: 100vw;
@@ -7289,6 +7502,7 @@ header.header-3 .main-menu ul>li>ul ul {
   .team-member-details-wrapper .container {
     padding: 20px;
   }
+  
 }
 
 .team-member-details-wrapper .icon-box {
@@ -7298,8 +7512,12 @@ header.header-3 .main-menu ul>li>ul ul {
 }
 
 @media (max-width: 576px) {
+  .calculator-bold-p{
+font-size: 20px!important;
+  }
   .sec-title-h2{
-        font-size: 24px;
+    margin-top: 5%;
+        font-size: 28px;
         font-weight: bold;
     }
   .team-member-details-wrapper .icon-box {
@@ -8123,6 +8341,7 @@ header.header-3 .main-menu ul>li>ul ul {
 }
 .faq-p{
   font-size: 18px;
+  margin-top: 1%;
 }
 
 .accordion .accordion-item button.accordion-button {
@@ -10812,10 +11031,10 @@ background:#fff;
   align-items: center;
 }
 
-.grid-item:hover {
+/* .grid-item:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   border-radius: 10px;
-}
+} */
 
 /* .footer-wrap img {
   width: 200px;
@@ -11111,12 +11330,40 @@ label {
   border-radius: 20px;
   height: 95%;
 }
-
+.banner-img-seller-mobile{
+display: none;
+  }
+  .banner-img-seller-desktop{
+   display: block;
+  }
+  .banner-img-seller{
+  width:747px;
+   height:498px;
+  }
 @media (max-width: 767px) {
+  
+.banner-img-seller{
+  width:350px;
+   height:211px;
+  }
+  .banner-img-seller-desktop{
+   display: none;
+  }
+  .banner-img-seller-mobile{
+display: block;
+  }
+  .fs-lg-seller{
+  font-size: 28px;
+  text-align: center;
+  /* line-height: 96; */
+  font-weight: bold;
+  color: #000;
+}
   .home-text-img-container {
         display: flex
 ;
-        flex-direction: column-reverse;
+        flex-direction: column;
+        /* flex-direction: column-reverse; */
     }
   .chart-with-whatsapp span {
 
@@ -11302,6 +11549,7 @@ label {
   .cal-to-action p {
     font-size: 14px;
     text-align: center;  
+    color: #fff!important;
   }
   .page-banner-wrap{
     height: 300px;
@@ -11497,7 +11745,7 @@ font-size: 16px;
 font-weight: bold;
 }
 .calculator-p p{
-  font-size: 12px!important;
+  font-size: 14px!important;
 }
 .line5 {
   font-size: 22px !important;
@@ -11505,7 +11753,29 @@ font-weight: bold;
 .section-padding {
   padding: 10px 0px 50px 0px !important;
 }
+.desktop-header{
+  display: none!important;
+}
+ .prop-owner-topcard{
+  position:static!important;
+  top:0px;
+  left:40%;
+ }
+ .prop-owner-bottomcard{
+  position:static!important;
+  bottom:-100px;
+  left:40%;
+ }
+ .prehomelogo-prop-owner{
+   display: none;
+ }
+ .propowner-row-parent{
+  display: flex;
+  justify-content: center!important;
+  align-items: center;
+  flex-wrap: wrap;
 
+ }
 }
 /* @media (max-width: 576px) and (hover: none) {
   .dropdown:hover .dropdown-menu {
@@ -11515,6 +11785,105 @@ font-weight: bold;
   }
   
 } */
+
+.table-container {
+  max-width: 904px;
+  height: 439px;
+  padding: 1%;
+  margin: auto;
+  border:1px solid #7EB5B0;
+  border-radius:12px;
+}
+
+.table-header {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.table-row {
+  margin: 12px 0;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.values {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 10px;
+  width: 300px;
+  height: 66px;
+
+}
+
+.value {
+  flex: 1;
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.light {
+  background: #e6f9f8;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark {
+  background: #017f73;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ✅ Only apply this style on mobile */
+@media (min-width: 769px) {
+  .table-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .label {
+    flex: 1;
+    margin: 0;
+  }
+
+  .values {
+    flex: 2;
+  }
+}
+
+ .propowner-row-parent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+ }
+ .prehomelogo-prop-owner{
+   width: 100%; 
+   height: 100%;
+ }
+ .prop-owner-bottomcard{
+  position:absolute;
+  bottom:-100px;
+  left:40%;
+ }
+ .prop-owner-topcard{
+  position:absolute;
+  top:0px;
+  left:40%;
+ }
  .icon{
   text-align: left;
  }
@@ -11575,7 +11944,7 @@ justify-content: space-between;
   padding: 2% 5%;
   border-radius: 7%;
   margin: 10px 10px;
-  width: 410px!important;
+  width: 386px!important;
   height: 276px;
 }
 .carousel-control-prev-icon,
@@ -12345,9 +12714,9 @@ border-radius: 15px;
   transform: translateY(-50%); /* Vertically center */
   z-index: 9999999;
 }
-  .container {
+  /* .container {
     padding: 3% !important;
-  }
+  } */
   .calculator-subhead {
     margin-top: 35%;
     margin-left: 2%;

@@ -10,7 +10,7 @@ const CustomOutlineCta = ({ text, isClicked, onClick,src,className}) => {
       // {...props}
     >
       {text}
-      <img src={src} alt="" />
+      <img src={src} alt="" style={{marginLeft:"3%"}}/>
     </button>
   );
 };

@@ -56,21 +56,21 @@ const PropertyOwners = () => {
           Why Property Owners Choose Prehome
         </h2>
 
-        <div className="d-flex justify-content-center mb-4" style={{position:"absolute",top:"0px",left:"40%"}}>
+        <div className="d-flex justify-content-center mb-4 prop-owner-topcard" >
           <ImageTextCards {...cards[3]} />
         </div>
 
-        <div className="d-flex justify-content-between align-items-center flex-wrap gap-4">
+        <div className="propowner-row-parent gap-4">
           <div className="d-flex flex-column gap-4 " >
             <ImageTextCards {...cards[0]} />
             <ImageTextCards {...cards[1]} />
           </div>
 
-          <div style={{ width: "261px", height: "237px", margin: "20px" }}>
+          <div  className="prehomelogo-prop-owner" style={{ width: "261px", height: "237px", margin: "20px" }}>
             <img
               src={logo}
               alt="Prehome Logo"
-              style={{ width: "100%", height: "100%" }}
+              className="prehomelogo-prop-owner"
             />
           </div>
 
@@ -80,7 +80,7 @@ const PropertyOwners = () => {
           </div>
         </div>
 
-        <div className="d-flex justify-content-center mt-4" style={{position:"absolute",bottom:"-100px",left:"40%"}}>
+        <div className="d-flex justify-content-center mt-4 prop-owner-bottomcard" >
           <ImageTextCards {...cards[2]} />
         </div>
       </div>
