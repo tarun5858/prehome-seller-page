@@ -15,8 +15,8 @@ const RealResults = () => {
                 Real Results from Real Property Owners{" "}
               </h2>
             </div>
-            <div  className="col-12 col-sm-12 col-md-6 col-lg-6 position-relative"
-              style={{ minHeight: "600px" }}
+            <div  className="col-12 col-sm-12 col-md-6 col-lg-6 position-relative real-result-img-parent"
+              
             >
               <img
                 src={homeimage} 

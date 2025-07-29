@@ -27,11 +27,20 @@ const CalculationDisplayCard = () => {
   {/* <div className="table-header">
   </div> */}
 
+  <div className="table-row-head d-none">
+    <div className="label"></div>
+    <div className="values">
+    {/* <h3 className="table-row-h3">Traditional Rental</h3> */}
+    <h3 className="table-row">Traditional Rental</h3>
+     <img src={logo} alt=""  className="table-row-img" />
+    </div>
+  </div>
+
   <div className="table-row">
     <div className="label"></div>
     <div className="values">
-    <h3><b>Traditional Rental</b></h3>
-     <img src={logo} alt=""  style={{width:"105px",height:"90px"}} />
+      <div className="value "> <h3 className="table-row-h3">Traditional Rental</h3></div>
+      <div className="value "><img src={logo} alt=""  className="table-row-img" /></div>
     </div>
   </div>
 

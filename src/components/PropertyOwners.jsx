@@ -51,11 +51,17 @@ const PropertyOwners = () => {
 
   return (
     <section className="prehome-benefit-sec text-center py-5">
-      <div className="container">
-        <h2 className="sec-title-h2 mb-5" style={{position:"relative",bottom:"150px",left:"0%"}}>
+      <div className="container container-lg">
+        <h2 className="sec-title-Property mb-5" >
           Why Property Owners Choose Prehome
         </h2>
-
+<div  className="prehomelogo-prop-owner-parent" >
+            <img
+              src={logo}
+              alt="Prehome Logo"
+              className="prehomelogo-prop-owner-mobile"
+            />
+          </div>
         <div className="d-flex justify-content-center mb-4 prop-owner-topcard" >
           <ImageTextCards {...cards[3]} />
         </div>

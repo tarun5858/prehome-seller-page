@@ -38,7 +38,7 @@ const Header = () => {
             </div>
 
             {/* Desktop Menu */}
-            <div className="desktop-header col-lg-7 col-sm-0 col-md-7 col-0 d-lg-flex  justify-content-end align-items-center">
+            <div className="desktop-header col-lg-8 col-sm-0 col-md-7 col-0 d-lg-flex   align-items-center">
               <div className="menu-wrap">
                 <div className="main-menu">
                   <ul>
@@ -97,7 +97,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div className="desktop-header col-lg-4 col-sm-0 col-md-4 col-6 d-lg-flex  justify-content-end align-items-center">
+            <div className="desktop-header col-lg-3 col-sm-0 col-md-4 col-6 d-lg-flex  justify-content-end align-items-center">
               <CustomOutlineCta text="Login" className="header-outline-cta"/>
               <GreenFilledCta text="Signup" />
             </div>

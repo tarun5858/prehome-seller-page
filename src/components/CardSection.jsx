@@ -12,7 +12,7 @@ const CardSection = () =>{
                 <div className=" text-center aos-item" data-aos="fade-down">
                   <h2 className="sec-title-h2">
                   If These Sound Familiar, Prehome Can Help </h2>
-                  <div className="row d-flex justify-content-between">
+                  <div className="row sellercards-parent">
                     <SellerpageCards></SellerpageCards>
                     <SellerpageCards></SellerpageCards>
                     <SellerpageCards></SellerpageCards>

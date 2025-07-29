@@ -109,9 +109,9 @@ Version: 1.2.0
 
 }
 
-/* .container{
+.container{
   padding: 1%;
-} */
+}
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
@@ -2560,6 +2560,26 @@ nav .breadcrumb li {
     font-weight: bold;
     color: #000;
   }
+  .sellercards-parent{
+    display: flex;
+    justify-content: space-between;
+  }
+  .table-row-h3{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .table-row-img{
+    width:105px;
+    height:90px;
+  }
+  .real-result-img-parent{
+    min-height: 600px;
+  }
+  .desktop-header{
+    display: flex;
+    justify-content: center;
+  }
 @media (max-width: 991px) {
   .mask-outline h1 {
     font-size: 150px;
@@ -2567,6 +2587,48 @@ nav .breadcrumb li {
 }
 
 @media (max-width: 576px) {
+  .creative-outcome-rows{
+  margin-top: 10%!important;
+ }
+  .real-result-img-parent{
+    min-height: 500px;
+  }
+  .table-row-img{
+    width:90px;
+    height:80px;
+  }
+  .table-row-h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .light,.dark{
+    height: 38px;
+    width: 170px;
+  }
+  .light{
+    font-size: 12px;
+  }
+  .dark{
+    font-size: 12px;
+  }
+  .label{
+    font-size: 14px;
+    font-weight: 500!important;
+  }
+  .values {
+    width: 100%!important;
+    padding: 0 2%;
+    justify-content: space-around!important;
+  }
+  .table-container{
+    margin: 15% 0 !important;
+    border: none!important;
+  }
+   .sellercards-parent{
+    display: flex;
+    justify-content: center;
+  }
   .accordion-button{
 
     font-size: 14px!important;
@@ -2592,7 +2654,7 @@ nav .breadcrumb li {
     
     
                   position: absolute;
-                  top: 45%;
+                  top: 55%;
                   left: 3%;
                   height: 211px;
                   width: 213px;
@@ -2602,14 +2664,14 @@ nav .breadcrumb li {
   }
     .Furnished-room-img{
                       top: 126px;
-                  left: 25%;
+                  left: 31%;
                   width: 279px;
                   height: 186px;
                  
   }
     .downarrow-img{
  width: 65px;
- left: 56%;
+ left: 51%;
                   height: 76px;   
   }
   .emptyroom-img{
@@ -4145,9 +4207,42 @@ header.header-1 .main-menu ul>li>a span {
 }
 
 @media (max-width: 1199px) and (min-width: 991px) {
-  header.header-1 .main-menu ul>li>a {
+  /* header.header-1 .main-menu ul>li>a {
     padding: 26px 14px;
+  } */
+   .eligiblity-cards{
+     width: 300px!important;
+
+   }
+   .calculator-card{
+        width: 270px!important;
+    width: 299px!important;
+   }
+     .Landing-page-cta{
+        width: 270px!important;
+  height: 45px!important;
+  font-size: 12px!important;
+  align-self: center;
+  /* margin-top: 2%; */
+      }
+     .landingpage-cta{
+        width: 270px!important;
+  height: 45px!important;
+  font-size: 12px!important;
+  align-self: center;
+  /* margin-top: 2%; */
+      }
+      .fs-lg-seller {
+    font-size: 34px;
   }
+  .sub-head-home{
+      font-size: 16px;
+
+    }
+    .banner-img-seller {
+    width: 734px;
+    height: 400px!important;
+}
 }
 
 header.header-1 .main-menu ul>li:hover>ul {
@@ -5996,6 +6091,15 @@ header.header-3 .main-menu ul>li>ul ul {
   color: #000;
       
 }
+.sec-title-Property{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 5%;
+  color: #000;
+      position: relative;
+      bottom: 150px;
+      left: 0;
+}
 .sec-title-h3 {
   text-align: left;
   font-size: 32px;
@@ -7512,6 +7616,14 @@ header.header-3 .main-menu ul>li>ul ul {
 }
 
 @media (max-width: 576px) {
+.sec-title-Property{
+  font-size: 28px;
+  position: static!important;
+  font-weight: bold;
+  /* margin-bottom: 50%!important; */
+  color: #000;
+      
+}
   .calculator-bold-p{
 font-size: 20px!important;
   }
@@ -8762,6 +8874,7 @@ color: grey;
     left: 30px;
   }
 }
+
 
 .single-blog-item .post-featured-thumb .post-cat a {
   display: inline-block;
@@ -10698,7 +10811,7 @@ font-size: 32px;
 
 .cal-to-action p {
   font-size: 16px;
-  color: #000!important;
+  color: #fff!important;
 }
 
 .website-color {
@@ -11769,6 +11882,17 @@ font-weight: bold;
  .prehomelogo-prop-owner{
    display: none;
  }
+ .prehomelogo-prop-owner-mobile-parent{
+   display: block;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+ }
+ .prehomelogo-prop-owner-mobile{
+   width: 200px;
+    height: 181px;
+ margin: 20px;
+ }
  .propowner-row-parent{
   display: flex;
   justify-content: center!important;
@@ -11776,6 +11900,7 @@ font-weight: bold;
   flex-wrap: wrap;
 
  }
+ 
 }
 /* @media (max-width: 576px) and (hover: none) {
   .dropdown:hover .dropdown-menu {
@@ -11785,7 +11910,10 @@ font-weight: bold;
   }
   
 } */
-
+ 
+.prehomelogo-prop-owner-parent{
+  display: none;
+}
 .table-container {
   max-width: 904px;
   height: 439px;
@@ -11847,6 +11975,7 @@ font-weight: bold;
 
 /* ✅ Only apply this style on mobile */
 @media (min-width: 769px) {
+  
   .table-row {
     display: flex;
     align-items: center;
@@ -12767,4 +12896,286 @@ border-radius: 15px;
     font-size: 26px;
     margin: 7% 0;
   }
+}
+
+
+@media (max-width: 991px) and (min-width:767px) {
+ .creative-outcome-rows{
+  margin-top: 10%!important;
+ }
+  .real-result-img-parent{
+    min-height: 500px;
+  }
+  .table-row-img{
+    width:90px;
+    height:80px;
+  }
+  .table-row-h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .light,.dark{
+    height: 38px;
+    width: 170px;
+  }
+  .light{
+    font-size: 12px;
+  }
+  .dark{
+    font-size: 12px;
+  }
+  .label{
+    font-size: 14px;
+    font-weight: 500!important;
+  }
+  .values {
+    width: 100%!important;
+    padding: 0 2%;
+    justify-content: space-around!important;
+  }
+  .table-container{
+    margin: 15% 0 !important;
+    border: none!important;
+  }
+   .sellercards-parent{
+    display: flex;
+    justify-content: center;
+  }
+  .accordion-button{
+
+    font-size: 14px!important;
+  }
+  .faq-p{
+
+    font-size: 12px!important;
+   text-align: left;
+  }
+  .faq-h2{
+    font-size: 24px;
+   text-align: left;
+  }
+  .real-result-head{
+    font-size: 24px;
+  }
+  .real-result-cta{
+    font-size: 14px!important;
+    margin: 2% 0!important;
+    padding: 2% 4%!important;
+  }
+  .Owner-img{
+    
+    
+                  position: absolute;
+                  top: 55%;
+                  left: 3%;
+                  height: 211px;
+                  width: 213px;
+                  z-index: 0;
+                  border-radius: 20px; 
+
+  }
+    .Furnished-room-img{
+                      top: 126px;
+                  left: 31%;
+                  width: 279px;
+                  height: 186px;
+                 
+  }
+    .downarrow-img{
+ width: 65px;
+ left: 51%;
+                  height: 76px;   
+  }
+  .emptyroom-img{
+    
+                  width: 207px;
+                  height: 138px;
+                  
+          
+  }
+   .eligiblity-cards-img{
+   height: 52px;
+   width:52px;
+    margin-bottom: 7%;
+  
+  }
+  .eligiblity-cards{
+    width: 270px!important;
+    height:167px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+  .design-text-parent{
+    margin-top: 8%!important;
+  }
+   .outline-cta-desktop{
+    display: none;
+  } 
+  .outline-cta-mobile{
+    display: block;
+    display: flex;
+    justify-content: center;
+  }
+  .design-text-parent{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }  
+  .seller-green-head{
+
+    font-size: 24px;
+    text-align: center;
+  }
+  .seller-p{
+
+    text-align: center;
+    font-size: 14px;
+  }
+  .seller-head{
+    font-size: 28px;
+    text-align: center;
+  }
+  .calculator-card{
+  width: 350px!important;
+  height: 183px!important;
+}
+  .landing-page-cta-parent{
+display: flex;
+flex-direction: column;
+  }
+  .desktop-header{
+    display: none;
+  }
+  .fs-lg-seller {
+    font-size: 24px!important;
+  }
+  .sub-head-home{
+    
+    font-size: 16px!important;
+  }
+  .banner-img-seller{
+    height: 400px;
+  }
+   .Landing-page-cta{
+        width: 259px!important;
+  height: 45px!important;
+  font-size: 14px!important;
+  align-self: center;
+  /* margin-top: 2%; */
+      }
+      .landingpage-cta{
+        width: 259px!important;
+  height: 45px!important;
+  font-size: 14px!important;
+  align-self: center;
+  margin-top: 4%!important;
+}
+.sec-title-h2{
+  font-size: 28px!important;
+  
+}
+      .calculator-card{
+width: 70%!important;
+height:100%!important;
+
+      }
+      .outline-cta-mobile{
+        display: none;
+      }
+      .outline-cta-desktop{
+        display: block;
+      }
+      .seller-head{
+        margin-top: 15%;
+        text-align: left;
+      }
+
+       .prop-owner-topcard{
+  position:static!important;
+  top:0px;
+  left:40%;
+ }
+ .prop-owner-bottomcard{
+  position:static!important;
+  bottom:-100px;
+  left:40%;
+ }
+ .prehomelogo-prop-owner{
+   display: none;
+ }
+ .prehomelogo-prop-owner-mobile-parent{
+   display: block;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+ }
+ .prehomelogo-prop-owner-mobile{
+   width: 200px;
+    height: 181px;
+ margin: 20px;
+ }
+ .propowner-row-parent{
+  display: flex;
+  justify-content: center!important;
+  align-items: center;
+  flex-wrap: wrap;
+
+ }
+ .sec-title-Property{
+  font-size: 28px;
+  position: static!important;
+  font-weight: bold;
+  /* margin-bottom: 50%!important; */
+  color: #000;
+      
+}
+    p {
+        font-size: 15px;
+        padding: 20px 5px 0px 5px;
+    }
+        .eligiblity-cards {
+        width: 220px !important;
+        height: 200px;
+        font-size: 12px!important;
+        justify-content: center;
+        align-items: center;
+    }
+        .Furnished-room-img {
+        top: 126px;
+        left: 25%;
+        width: 245px;
+        height: 180px;
+    }
+    .emptyroom-img {
+        width: 175px;
+        height: 140px;
+    }
+        .Owner-img {
+        position: absolute;
+        top: 50%;
+        left: 3%;
+        height: 200px;
+        width: 200px;
+        z-index: 0;
+        border-radius: 20px;
+    }
+    .real-result-img-parent{
+      margin-top: 6%;
+    }
+    .LargeCustomCta{
+              width: 259px !important;
+        height: 45px !important;
+        font-size: 14px !important;
+        align-self: center;
+      }
+      .cal-to-action h2{
+      font-size: 28px !important;
+
+    }
+     .cal-to-action p{
+      font-size: 14px !important;
+
+    }
 }
