@@ -2563,6 +2563,7 @@ nav .breadcrumb li {
   .sellercards-parent{
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .table-row-h3{
     font-size: 24px;
@@ -2572,6 +2573,8 @@ nav .breadcrumb li {
   .table-row-img{
     width:105px;
     height:90px;
+        position: relative;
+    top: -50%;
   }
   .real-result-img-parent{
     min-height: 600px;
@@ -2580,6 +2583,12 @@ nav .breadcrumb li {
     display: flex;
     justify-content: center;
   }
+  .OutcomesImg{
+    display: block;
+  }
+  .OutcomesImgMobile{
+    display: none;
+  }
 @media (max-width: 991px) {
   .mask-outline h1 {
     font-size: 150px;
@@ -2587,6 +2596,18 @@ nav .breadcrumb li {
 }
 
 @media (max-width: 576px) {
+  .prehomelogo-prop-owner-parent{
+display: flex;
+justify-content: center;
+align-items: center;
+   display: block!important;
+ }
+  .OutcomesImg{
+    display: none;
+  }
+  .OutcomesImgMobile{
+    display: block;
+  }
   .creative-outcome-rows{
   margin-top: 10%!important;
  }
@@ -2628,6 +2649,7 @@ nav .breadcrumb li {
    .sellercards-parent{
     display: flex;
     justify-content: center;
+    margin: 0 1%!important;
   }
   .accordion-button{
 
@@ -2656,8 +2678,8 @@ nav .breadcrumb li {
                   position: absolute;
                   top: 55%;
                   left: 3%;
-                  height: 211px;
-                  width: 213px;
+                  height: 200px;
+                  width: 200px;
                   z-index: 0;
                   border-radius: 20px; 
 
@@ -2665,8 +2687,8 @@ nav .breadcrumb li {
     .Furnished-room-img{
                       top: 126px;
                   left: 31%;
-                  width: 279px;
-                  height: 186px;
+                  width: 245px;
+                  height: 175px;
                  
   }
     .downarrow-img{
@@ -4139,6 +4161,32 @@ header.header-1.sticky .main-menu ul li>a {
   header.header-1.sticky .main-menu ul li>a {
     padding: 15px 5px;
   }
+  .prehomelogo-prop-owner{
+    display: none;
+  }
+  .prop-owner-topcard{
+position: absolute;
+    bottom: -100px;
+    left: 35%!important;
+  }
+  .prop-owner-bottomcard {
+    position: absolute;
+    bottom: -100px;
+    left: 35%!important;
+}
+.calculator-card{
+  width: 300px !important;
+    height: 276px!important;
+}
+.seller-head {
+    font-size: 28px;}
+    .seller-p {
+    font-size: 16px;}
+    .seller-green-head {
+    font-size: 40px;}
+    .home-text-img-container{
+      margin-top: 5%!important;
+    }
 }
 
 header.header-1.sticky .main-menu ul ul li a {
@@ -5452,6 +5500,7 @@ header.header-3 .main-menu ul>li>ul ul {
   .hero-1 .single-slide .hero-contents h1 {
     font-size: 58px;
   }
+
 }
 
 @media (max-width: 991px) {
@@ -11892,6 +11941,7 @@ font-weight: bold;
    width: 200px;
     height: 181px;
  margin: 20px;
+
  }
  .propowner-row-parent{
   display: flex;
@@ -12073,7 +12123,7 @@ justify-content: space-between;
   padding: 2% 5%;
   border-radius: 7%;
   margin: 10px 10px;
-  width: 386px!important;
+  width: 400px!important;
   height: 276px;
 }
 .carousel-control-prev-icon,
@@ -13105,16 +13155,20 @@ height:100%!important;
  .prehomelogo-prop-owner{
    display: none;
  }
+ .prehomelogo-prop-owner-parent{
+
+   display: block!important;
+ }
  .prehomelogo-prop-owner-mobile-parent{
-   display: block;
    display: flex;
    justify-content: center;
    align-items: flex-start;
  }
  .prehomelogo-prop-owner-mobile{
-   width: 200px;
+   /* width: 200px;
     height: 181px;
- margin: 20px;
+ margin: 20px; */
+ display: none;
  }
  .propowner-row-parent{
   display: flex;

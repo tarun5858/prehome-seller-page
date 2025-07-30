@@ -40,7 +40,9 @@ const CalculationDisplayCard = () => {
     <div className="label"></div>
     <div className="values">
       <div className="value "> <h3 className="table-row-h3">Traditional Rental</h3></div>
-      <div className="value "><img src={logo} alt=""  className="table-row-img" /></div>
+      <div className="value ">
+        <img src={logo} alt=""  className="table-row-img" />
+        </div>
     </div>
   </div>
 

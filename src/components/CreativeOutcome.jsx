@@ -1,18 +1,19 @@
 import OutcomesImg from "../assets/img/Frame 1000004596 (1).png";
-import image1 from "../assets/img/image 3.png";
-import image2 from "../assets/img/image 4.png";
-import image3 from "../assets/img/image 5.png";
-import image4 from "../assets/img/image 6.png";
-import image5 from "../assets/img/image 7.png";
+import OutcomesImgMobile from "../assets/img/Frame 1000004624.png";
+// import image1 from "../assets/img/image 3.png";
+// import image2 from "../assets/img/image 4.png";
+// import image3 from "../assets/img/image 5.png";
+// import image4 from "../assets/img/image 6.png";
+// import image5 from "../assets/img/image 7.png";
 
-import numberimg1 from "../assets/img/Frame 1000001654.png";
-import numberimg2 from "../assets/img/Frame 1000001654 (1).png";
-import numberimg3 from "../assets/img/Frame 1000001654 (2).png";
-import numberimg4 from "../assets/img/Frame 1000001654 (3).png";
-import numberimg5 from "../assets/img/Frame 1000001654 (4).png";
+// import numberimg1 from "../assets/img/Frame 1000001654.png";
+// import numberimg2 from "../assets/img/Frame 1000001654 (1).png";
+// import numberimg3 from "../assets/img/Frame 1000001654 (2).png";
+// import numberimg4 from "../assets/img/Frame 1000001654 (3).png";
+// import numberimg5 from "../assets/img/Frame 1000001654 (4).png";
 
 
-import bgImage from "../assets/img/Vector 459.png";
+// import bgImage from "../assets/img/Vector 459.png";
 
 
 const CreativeOutcomes = () => {
@@ -22,18 +23,18 @@ const CreativeOutcomes = () => {
       <section className="prehome-benefit-sec">
         <div className="container container-lg" 
      >
-          {/* <div className=" align-items-center" > */}
             <div className="row">
               <div className="col-12 mb-md-3 mb-sm-0  ">
                 <div className=" text-center aos-item" data-aos="fade-down">
-                  <h2 className="sec-title-h2">
+                  <h2 className="sec-title-h2 mt-5 mb-5">
                     How Prehome Creates Win-Win Outcomes
                   </h2>
-                  <img src={OutcomesImg} alt="" />
+                  <img src={OutcomesImg} alt="" className="OutcomesImg"/>
+                  <img src={OutcomesImgMobile} alt=""className="OutcomesImgMobile" />
                 </div>
               </div>
             </div>
- <div className="row">
+ {/* <div className="row">
               <div className="col-7 mb-md-3 mb-sm-0 d-block d-lg-none">
                 <div className=" text-center aos-item" data-aos="fade-down">
                   <div className="img-cont">
@@ -154,12 +155,7 @@ const CreativeOutcomes = () => {
                 ></div>
               </div>
             </div>
-</div>
-
-          
-
-
-          {/* </div> */}
+</div> */}
         </div>
       </section>
 

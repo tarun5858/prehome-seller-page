@@ -11,7 +11,7 @@ const EligiblityCardsParent = () =>{
             <div className="row">
               <div className="col-12 mb-md-3 mb-sm-0  ">
                 <div className=" text-center aos-item" data-aos="fade-down">
-                  <h2 className="sec-title-h2">
+                  <h2 className="sec-title-h2 mt-5">
                   Property Eligibility & Terms </h2>
                   <div className="row d-flex  align-items-center justify-content-center">
                     <EligiblityCards icon={scene} description="We accept properties that are <b>move-in ready</b> condition in Gurugram"></EligiblityCards>
